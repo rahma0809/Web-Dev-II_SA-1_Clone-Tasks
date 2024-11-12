@@ -1,0 +1,100 @@
+/* styles.css */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 ;
+}
+
+body{
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header{
+    background-color: #4e342e;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    color: #fff;
+}
+
+header .logo h2{
+    font-size: 20px;
+}
+
+header .menu ul{
+    list-style: none;
+    display: flex;
+}
+
+header .menu li{
+    margin-right: 50px;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .btns button{
+    background-color: #d32f2f;
+    margin-left:10px ;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+header .btns a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cart a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+section{
+    text-align: center;
+    padding: 30px;
+}
+
+.overview, .biuld-box, .promotions{
+    background-color:white ;
+    padding: 15px;
+    margin: auto;
+    border-radius: 7px;
+    max-width: 900px;
+}
+
+.overview h2, .biuld-box h2, .promotions h2{
+    margin-bottom: 11px;
+    font-size: 20px;
+}
+
+select .promo img{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 11px auto;
+}
+
+.promo-item{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.promo-item img{
+    width: 30%;
+    height: auto;
+}
+
+.promo-item p{
+    margin-top: 11px;
+}
+

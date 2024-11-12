@@ -1,0 +1,76 @@
+
+/*full screen image styling*/
+.img1{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img1 img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(jk.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: -1;
+}
+
+/*menu container styling*/
+.menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*unordered list styling*/
+ul{
+    padding: 10;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-top: 10;
+}
+
+/*list items styling*/
+ul li{
+    list-style: none;
+    margin-right:100px;
+    border: 2px solid #ebdede;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+ul li:last-child{
+    margin-right:0;
+}
+
+/*link styling*/
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+/*hover effect for links*/
+ul li a:hover{
+    color: #8c00f7e8;
+}
+
+footer{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: -120px;
+}

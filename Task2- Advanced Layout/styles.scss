@@ -1,0 +1,18 @@
+$bg-color: #231651;
+$fonts: "Teko", serif;
+$para:"Lato", serif;
+$poster-color:#4DCCBD;
+$btn-color:#EEF36A;
+
+
+body{
+    background-color: $bg-color;
+}
+
+.poster1, .poster2, .poster3, .posters1, .posters2,.posters3{
+    background-color: #4DCCBD;
+}
+
+.btn, .btn0, .btn1, .btn2, .btn3, .btn4{
+    background-color: $btn-color;
+}

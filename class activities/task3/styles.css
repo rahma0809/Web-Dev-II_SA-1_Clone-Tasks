@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    width: 100%;
+    background-color: #333;
+    padding: 1.1rem 0;
+    margin-bottom: 1.8rem;
+}
+
+.menu a{
+    color: #f4f4f9;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    
+}
+
+section{
+    width: 100%;
+    max-width: 702px;
+    background-color: #f4f4f9;
+    margin-bottom: 1.7rem;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+
+section h1{
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+    color: #333;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.quiz qtn{
+    font-weight: bold;
+    color: #444;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.quiz .ans{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+}
+
+
+
+.quiz button {
+    padding: 0.5rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.do-item{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    gap: 0.8rem;
+}
+
+.do-item button{
+    background-color: rgb(86, 152, 209);
+    color: #fff;
+    border: none;
+    padding: 0.2rem 0.6rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem;
+    width: 100%;
+    max-width: 255px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.card img{
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+
+.card h2{
+    color: #444;
+    margin-bottom: 0.4rem;
+}
+
+.card p{
+    color: black;
+    font-size: 0.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.card button{
+    padding: 0.4rem 1.3rem;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
