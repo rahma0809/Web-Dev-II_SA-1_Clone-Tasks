@@ -6,7 +6,7 @@
 }
 
 .img1 img{
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
     background-image: url(jk.jpeg);
     background-size: cover;
